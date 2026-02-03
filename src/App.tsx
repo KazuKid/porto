@@ -13,7 +13,14 @@ function App() {
           <a href="#skills">Certificate</a>
           <a href="#contact">Contact</a>
         </nav>
-        <button className="btn secondary">Unduh CV</button>
+        <a
+          className="btn secondary"
+          href="https://drive.google.com/file/d/1lLCrUGx8wmfC9lfy9j-TkK3_Fjn9ViEJ/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Unduh CV
+        </a>
       </header>
 
       <main>
