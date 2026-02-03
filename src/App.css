@@ -187,6 +187,13 @@
   gap: 1rem;
 }
 
+.certificates-grid .project-body h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .tags {
   display: flex;
   gap: 0.5rem;

@@ -27,9 +27,19 @@ function App() {
                 mencari peluang untuk mengembangkan ketrampilan saya dalam bidang IT
               </p>
               <div className="socials">
-                <a href="#">GitHub</a>
-                <a href="#">Steam</a>
-                <a href="#">Discord</a>
+                <a href="https://github.com/KazuKid" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+                <a href="https://steamcommunity.com/id/kazukid_/" target="_blank" rel="noreferrer">
+                  Steam
+                </a>
+                <a
+                  href="https://discord.com/users/277729630583128065"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Discord
+                </a>
               </div>
             </div>
           </div>
@@ -83,7 +93,7 @@ function App() {
               Beberapa proyek yang pernah saya kerjakan
             </p>
           </div>
-          <div className="projects-grid">
+          <div className="projects-grid certificates-grid">
             <article className="project-card">
                 <img
                   className="project-image"
@@ -115,17 +125,18 @@ function App() {
               </div>
             </article>
             <article className="project-card">
-              <div className="project-image" />
+              <img
+                className="project-image"
+                src="/comingsoon.jpg"
+                alt="Coming soon"
+              />
               <div className="project-body">
-                <h3>E-commerce Lifestyle</h3>
+                <h3>Dasboard</h3>
                 <p>
-                  Toko online dengan alur checkout sederhana dan pengalaman
-                  mobile yang kuat.
+                  Dalam pengembangan...
                 </p>
                 <div className="tags">
-                  <span>React</span>
-                  <span>Stripe</span>
-                  <span>Design System</span>
+                  <span>?</span>
                 </div>
                 <div className="project-actions">
                   <button className="btn ghost">Detail</button>
@@ -134,17 +145,18 @@ function App() {
               </div>
             </article>
             <article className="project-card">
-              <div className="project-image" />
-              <div className="project-body">
-                <h3>Platform Belajar</h3>
+              <img
+                className="project-image"
+                src="/comingsoon.jpg"
+                alt="Coming soon"
+              />
+              <div className="project-body">c:\Users\ripze\OneDrive\Pictures\Screenshots 1\comingsoon.jpg
+                <h3>Article Generator</h3>
                 <p>
-                  Sistem pembelajaran online dengan dashboard mentor dan
-                  tracking progres.
+                  Dalam pengembangan...
                 </p>
                 <div className="tags">
-                  <span>React</span>
-                  <span>Firebase</span>
-                  <span>UX Research</span>
+                  <span>?</span>
                 </div>
                 <div className="project-actions">
                   <button className="btn ghost">Detail</button>
@@ -168,7 +180,7 @@ function App() {
               <img
                 className="project-image"
                 src="/sertifikat1.jpg"
-                alt="Sertifikat Frontend"
+                alt="Sertifikat Google"
               />
               <div className="project-body">
                 <h3>Bangkit, Specializing in Cloud Computing.</h3>
@@ -187,23 +199,21 @@ function App() {
             <article className="project-card">
               <img
                 className="project-image"
-                src="/certificate-2.png"
+                src="/sertifikat2.png"
                 alt="Sertifikat UI/UX"
               />
               <div className="project-body">
-                <h3>UI/UX Design</h3>
-                <p>Sertifikat desain antarmuka dan riset pengalaman pengguna.</p>
-              </div>
-            </article>
-            <article className="project-card">
-              <img
-                className="project-image"
-                src="/certificate-3.png"
-                alt="Sertifikat Kolaborasi"
-              />
-              <div className="project-body">
-                <h3>Agile Collaboration</h3>
-                <p>Sertifikat kolaborasi tim dan workflow agile.</p>
+                <h3>Coursera, Architecting with Google Compute Engine Spesialisasi (Google Cloud)</h3>
+                <div className="project-actions">
+                  <a
+                    className="btn secondary"
+                    href="https://drive.google.com/file/d/14vsHxzxKzeu7lMlSehVYykNS8tuNh4VJ/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lihat Sertifikat
+                  </a>
+                </div>
               </div>
             </article>
           </div>
@@ -220,8 +230,9 @@ function App() {
           <div className="contact-card">
             <div>
               <h3>Kontak</h3>
-              <p>Email: ripzero2@gmail.com</p>
-              <p>Lokasi: Semarang, Indonesia</p>
+              <p>Email : ripzero2@gmail.com</p>
+              <p>WA    : +6285326354313</p>
+              <p>Lokasi : Semarang, Indonesia</p>
             </div>
             <button className="btn primary">Kirim Pesan</button>
           </div>
