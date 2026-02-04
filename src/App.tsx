@@ -15,7 +15,7 @@ function App() {
         </nav>
         <a
           className="btn secondary"
-          href="https://drive.google.com/file/d/1lLCrUGx8wmfC9lfy9j-TkK3_Fjn9ViEJ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LJIOi0pTFlvWdwxzWbNXLWWcrbIaaN3v/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
@@ -173,7 +173,6 @@ function App() {
             </article>
           </div>
         </section>
-
         <section id="skills" className="section">
           <div className="section-header">
             <h2>Sertifikat</h2>
