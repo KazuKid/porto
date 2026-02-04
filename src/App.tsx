@@ -157,7 +157,7 @@ function App() {
                 src="/comingsoon.jpg"
                 alt="Coming soon"
               />
-              <div className="project-body">c:\Users\ripze\OneDrive\Pictures\Screenshots 1\comingsoon.jpg
+              <div className="project-body">
                 <h3>Article Generator</h3>
                 <p>
                   Dalam pengembangan...
