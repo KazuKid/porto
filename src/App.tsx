@@ -26,7 +26,7 @@ function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-card">
-            <img className="avatar" src="/pp1.png" alt="Foto profil" />
+            <img className="avatar" src="/pp3.png" alt="Foto profil" />
             <div>
               <h2>Halo, saya Mohammad Rivaldy Yusup</h2>
               <p>
@@ -78,13 +78,14 @@ function App() {
                 <li>Game</li>
                 <li>Olahraga</li>
                 <li>Belajar hal baru</li>
-                <li>Anime</li>
+                <li>Movie</li>
               </ul>
             </div>
             <div className="card">
               <h3>Skill</h3>
               <ul className="hobby-list">
-                <li>Vibe Coding</li>
+                <li>JavaScript</li>
+                <li>Python</li>
                 <li>Microsoft Office</li>
                 <li>Canva</li>
                 <li>CapCut</li>
