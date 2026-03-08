@@ -113,25 +113,24 @@ function App() {
             <article className="project-card">
                 <img
                   className="project-image"
-                  src="/ecommerce1.png"
-                  alt="E-Commerce Pet Shop Zea"
+                  src="/company1.png"
+                  alt="Company Web Profile"
                 />
               <div className="project-body">
-                  <h3>E-Commerce Pet Shop Zea</h3>
+                  <h3>Company Web Profile</h3>
                 <p>
-                  Platform e-commerce Lengkap dengan fitur katalog produk,keranajng, dan pembayaran.
+                  Website profil perusahaan dengan tampilan yang elgan dan responsif, menampilkan informasi tentang perusahaan, produk, dan layanan yang ditawarkan.
                 </p>
                 <div className="tags">
-                  <span>JavasScript</span>
-                  <span>React.js</span>
+                  <span>Vue.js</span>
+                  <span>CSS</span>
                   <span>Node.js</span>
-                  <span>Bootstrap</span>
                 </div>
                 <div className="project-actions">
                   <button className="btn ghost">Detail</button>
                   <a
                     className="btn secondary"
-                    href="https://zea-pet-shop-rho.vercel.app/"
+                    href="https://company-web-profile.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
