@@ -25,28 +25,30 @@ function App() {
 
       <main>
         <section id="home" className="hero">
-          <div className="hero-card">
-            <img className="avatar" src="/pp3.png" alt="Foto profil" />
-            <div>
-              <h2>Halo, saya Mohammad Rivaldy Yusup</h2>
-              <p>
-                Seorang freshgraduatate yang memiliki ketertarikan besar dalam bidang IT dan sedang
-                mencari peluang untuk mengembangkan ketrampilan saya dalam bidang IT
-              </p>
-              <div className="socials">
-                <a href="https://github.com/KazuKid" target="_blank" rel="noreferrer">
-                  GitHub
-                </a>
-                <a href="https://steamcommunity.com/id/kazukid_/" target="_blank" rel="noreferrer">
-                  Steam
-                </a>
-                <a
-                  href="https://discord.com/users/277729630583128065"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Discord
-                </a>
+          <div className="hero-card-shell">
+            <div className="hero-card">
+              <img className="avatar" src="/pp3.png" alt="Foto profil" />
+              <div>
+                <h2>Halo, saya Mohammad Rivaldy Yusup</h2>
+                <p>
+                  Seorang freshgraduatate yang memiliki ketertarikan besar dalam bidang IT dan sedang
+                  mencari peluang untuk mengembangkan ketrampilan saya dalam bidang IT
+                </p>
+                <div className="socials">
+                  <a href="https://github.com/KazuKid" target="_blank" rel="noreferrer">
+                    GitHub
+                  </a>
+                  <a href="https://steamcommunity.com/id/kazukid_/" target="_blank" rel="noreferrer">
+                    Steam
+                  </a>
+                  <a
+                    href="https://discord.com/users/277729630583128065"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Discord
+                  </a>
+                </div>
               </div>
             </div>
           </div>
