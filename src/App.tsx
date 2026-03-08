@@ -59,39 +59,45 @@ function App() {
             <h2>Tentang Saya</h2>
           </div>
           <div className="about-grid">
-            <div className="card">
-              <h3>Riwayat Pendidikan</h3>
-              <ul className="education-list">
-                <li>
-                  <span className="edu-school">SMA Nasima Semarang</span>
-                  <span className="edu-year">2017–2019</span>
-                </li>
-                <li>
-                  <span className="edu-school">
-                    Universitas Dian Nuswantoro — Teknik Informatika
-                  </span>
-                  <span className="edu-year">2019–2025</span>
-                </li>
-              </ul>
+            <div className="about-card-shell">
+              <div className="card about-card">
+                <h3>Riwayat Pendidikan</h3>
+                <ul className="education-list">
+                  <li>
+                    <span className="edu-school">SMA Nasima Semarang</span>
+                    <span className="edu-year">2017–2019</span>
+                  </li>
+                  <li>
+                    <span className="edu-school">
+                      Universitas Dian Nuswantoro — Teknik Informatika
+                    </span>
+                    <span className="edu-year">2019–2025</span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div className="card">
-              <h3>Hobi</h3>
-              <ul className="hobby-list">
-                <li>Game</li>
-                <li>Olahraga</li>
-                <li>Belajar hal baru</li>
-                <li>Movie</li>
-              </ul>
+            <div className="about-card-shell">
+              <div className="card about-card">
+                <h3>Hobi</h3>
+                <ul className="hobby-list">
+                  <li>Game</li>
+                  <li>Olahraga</li>
+                  <li>Belajar hal baru</li>
+                  <li>Movie</li>
+                </ul>
+              </div>
             </div>
-            <div className="card">
-              <h3>Skill</h3>
-              <ul className="hobby-list">
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Microsoft Office</li>
-                <li>Canva</li>
-                <li>CapCut</li>
-              </ul>
+            <div className="about-card-shell">
+              <div className="card about-card">
+                <h3>Skill</h3>
+                <ul className="hobby-list">
+                  <li>Prompt Engineering</li>
+                  <li>Web Development</li>
+                  <li>Microsoft Office</li>
+                  <li>Basic Video/Image Editing</li>
+                  <li>Software Development</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
