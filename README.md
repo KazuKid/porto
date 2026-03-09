@@ -2,6 +2,11 @@
 
 Single-page portfolio website built with React, TypeScript, and Vite.
 
+## Documentation
+
+- Product requirements: `docs/PRD.md`
+- Technical documentation: `docs/TECHNICAL_DOCUMENTATION.md`
+
 ## Sections
 
 - Hero
