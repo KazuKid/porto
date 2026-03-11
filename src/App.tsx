@@ -119,7 +119,7 @@ function App() {
               <div className="project-body">
                   <h3>Company Web Profile</h3>
                 <p>
-                  Website profil perusahaan dengan tampilan yang elgan dan responsif, menampilkan informasi tentang perusahaan, produk, dan layanan yang ditawarkan.
+                  Contoh template website profil perusahaan dengan tampilan yang elgan dan responsif, menampilkan informasi tentang perusahaan, produk, dan layanan yang ditawarkan.
                 </p>
                 <div className="tags">
                   <span>Vue.js</span>
@@ -146,16 +146,26 @@ function App() {
                 alt="Coming soon"
               />
               <div className="project-body">
-                <h3>Dasboard</h3>
+                <h3>E-Commerce</h3>
                 <p>
-                  Dalam pengembangan...
+                  Contoh template webiste ecommerce dengan fitur lengkap seperti katalog produk, keranjang belanja, dan proses checkout yang mudah digunakan.
                 </p>
                 <div className="tags">
-                  <span>?</span>
+                  <span>Vue.js</span>
+                  <span>Tailwind.css</span>
+                  <span>Laravel</span>
+                  <span>Postgresql</span>
                 </div>
                 <div className="project-actions">
                   <button className="btn ghost">Detail</button>
-                  <button className="btn secondary">Demo</button>
+                  <a
+                    className="btn secondary"
+                    href="https://pet-shop-zea.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
                 </div>
               </div>
             </article>
