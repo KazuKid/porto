@@ -124,7 +124,6 @@ function App() {
                 <div className="tags">
                   <span>Vue.js</span>
                   <span>CSS</span>
-                  <span>Node.js</span>
                 </div>
                 <div className="project-actions">
                   <button className="btn ghost">Detail</button>
@@ -142,8 +141,8 @@ function App() {
             <article className="project-card">
               <img
                 className="project-image"
-                src="/comingsoon.jpg"
-                alt="Coming soon"
+                src="/ecommerce2.png"
+                alt="E-Commerce"
               />
               <div className="project-body">
                 <h3>E-Commerce</h3>
