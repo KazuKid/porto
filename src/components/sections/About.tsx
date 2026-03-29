@@ -27,28 +27,28 @@ const About = () => {
             <div className="space-y-4">
               <div className="flex justify-between items-end">
                 <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">WEB DEV</label>
-                <span className="text-[#e9c349] font-headline font-bold">50/99</span>
+                <span className="text-[#e9c349] font-headline font-bold">80/99</span>
               </div>
               <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%] transition-all duration-1000"></div>
+                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[80%] transition-all duration-1000"></div>
               </div>
             </div>
             <div className="space-y-4">
               <div className="flex justify-between items-end">
                 <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">PROMPT ENG</label>
-                <span className="text-[#e9c349] font-headline font-bold">50/99</span>
+                <span className="text-[#e9c349] font-headline font-bold">85/99</span>
               </div>
               <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%] transition-all duration-1000"></div>
+                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[85%] transition-all duration-1000"></div>
               </div>
             </div>
             <div className="space-y-4">
               <div className="flex justify-between items-end">
                 <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">SOFTWARE ENG</label>
-                <span className="text-[#e9c349] font-headline font-bold">50/99</span>
+                <span className="text-[#e9c349] font-headline font-bold">70/99</span>
               </div>
               <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%] transition-all duration-1000"></div>
+                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[70%] transition-all duration-1000"></div>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const About = () => {
                 <h3 className="font-headline font-bold text-2xl text-[#e9c349]">BIOGRAPHY</h3>
               </div>
               <p className="font-body text-lg leading-relaxed text-[#dae2fd]">
-                Saya adalah Mohammad Rivaldy Yusup, seorang fresh graduate jurusan Teknik Informatika dari Universitas Dian Nuswantoro (2019-2025). Berbekal hobi di bidang Game dan teknologi, saya memulai perjalanan digital saya sebagai petualang kode.
+                Halo saya Mohammad Rivaldy Yusup, seorang lulusan jurusan Teknik Informatika dari Universitas Dian Nuswantoro. Berbekal hobi di bidang Game dan teknologi, saya memulai perjalanan digital saya sebagai petualang kode.
                 <br/><br/>
                 Saat ini saya berspesialisasi dalam Web Development, Prompt Engineering, dan Software Engineering. Saya terus meningkatkan 'Stats' saya dalam petualangan digital.
               </p>

@@ -30,28 +30,28 @@ const Hero = () => {
               <div className="space-y-1">
                 <div className="flex justify-between font-headline text-xs tracking-widest text-[#b4c5ff]">
                   <span>FRONTEND SKILLS</span>
-                  <span>50% EXP</span>
+                  <span>70% EXP</span>
                 </div>
                 <div className="h-3 w-full bg-[#2d3449] overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%]"></div>
+                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[70%]"></div>
                 </div>
               </div>
               <div className="space-y-1">
                 <div className="flex justify-between font-headline text-xs tracking-widest text-[#b4c5ff]">
                   <span>BACKEND LOGIC</span>
-                  <span>50% EXP</span>
+                  <span>60% EXP</span>
                 </div>
                 <div className="h-3 w-full bg-[#2d3449] overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%]"></div>
+                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[60%]"></div>
                 </div>
               </div>
               <div className="space-y-1">
                 <div className="flex justify-between font-headline text-xs tracking-widest text-[#b4c5ff]">
                   <span>AI INTEGRATION</span>
-                  <span>50% EXP</span>
+                  <span>65% EXP</span>
                 </div>
                 <div className="h-3 w-full bg-[#2d3449] overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[50%]"></div>
+                  <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[65%]"></div>
                 </div>
               </div>
             </div>

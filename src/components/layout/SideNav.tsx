@@ -5,7 +5,7 @@ const SideNav = () => {
         <div className="text-[#e9c349] font-black font-headline text-lg">COMMAND</div>
         <div className="text-[#b4c5ff] text-[10px] font-headline tracking-widest uppercase">LVL 99 DEVELOPER</div>
       </div>
-      <a className="flex items-center gap-3 py-2 px-4 transition-transform steps-4 hover:translate-x-1 hover:text-[#e9c349] font-headline font-bold uppercase text-[#b4c5ff]" href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a className="flex items-center gap-3 py-2 px-4 transition-transform steps-4 hover:translate-x-1 hover:text-[#e9c349] font-headline font-bold uppercase text-[#b4c5ff]" href="https://www.linkedin.com/in/mohammad-rivaldy-yusup-7008a1371/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrvY%2B7iAlR8WmFes7nYA%2B8Q%3D%3D" target="_blank" rel="noreferrer">
         <span className="material-symbols-outlined text-lg">link</span>
         LINKEDIN
       </a>
