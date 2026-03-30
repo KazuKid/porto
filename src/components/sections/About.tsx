@@ -17,9 +17,6 @@ const About = () => {
           <div className="relative aspect-square bg-[#131b2e] border-b-4 border-[#b4c5ff] p-4 group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#002367]/40 to-transparent"></div>
             <img alt="Hero Sprite" className="w-full h-full object-cover filter contrast-125 grayscale hover:grayscale-0 transition-all duration-500 animate-bob relative z-10" src="/pp3.png" />
-            <div className="absolute -bottom-4 -right-4 bg-[#e9c349] text-[#241a00] px-4 py-2 font-headline font-bold text-xl z-20">
-              LVL 99
-            </div>
           </div>
 
           {/* Stats Container */}

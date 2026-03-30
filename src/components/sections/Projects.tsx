@@ -20,9 +20,6 @@ const Projects = () => {
           <div className="w-full aspect-video bg-[#002367] relative overflow-hidden border-b-2 border-[#444650] group-hover:border-[#b4c5ff]">
             <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e] to-transparent z-10 opacity-60"></div>
             <img src="/company1.png" alt="Company Web Profile" className="w-full h-full object-cover relative z-0 group-hover:scale-105 transition-transform duration-700 blur-[1px] group-hover:blur-none" />
-            <div className="absolute top-4 right-4 z-20 bg-[#060e20] text-[#e9c349] px-2 py-1 text-[10px] font-headline font-bold uppercase border border-[#e9c349]">
-              RANK: C
-            </div>
           </div>
 
           <div className="p-6 flex flex-col flex-grow">
@@ -57,9 +54,6 @@ const Projects = () => {
           <div className="w-full aspect-video bg-[#002367] relative overflow-hidden border-b-2 border-[#444650] group-hover:border-[#e9c349]">
             <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e] to-transparent z-10 opacity-60"></div>
             <img src="/ecommerce2.png" alt="E-Commerce" className="w-full h-full object-cover relative z-0 group-hover:scale-105 transition-transform duration-700 blur-[1px] group-hover:blur-none" />
-            <div className="absolute top-4 right-4 z-20 bg-[#e9c349] text-[#241a00] px-2 py-1 text-[10px] font-headline font-bold uppercase border border-[#e9c349] animate-pulse">
-              RANK: A (LEGENDARY)
-            </div>
           </div>
 
           <div className="p-6 flex flex-col flex-grow relative">

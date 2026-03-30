@@ -54,9 +54,6 @@ const Navbar = () => {
         ))}
       </div>
       <div className="flex items-center gap-4">
-        <button className="text-[#b4c5ff] hover:text-white transition-all active:scale-95">
-          <span className="material-symbols-outlined text-3xl">account_circle</span>
-        </button>
       </div>
     </nav>
   );

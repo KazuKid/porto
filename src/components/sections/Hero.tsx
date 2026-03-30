@@ -12,8 +12,7 @@ const Hero = () => {
             <div className="relative group">
               {/* Dialogue Box Behind Avatar */}
               <div className="absolute -top-4 -left-4 w-full h-full bg-[#131b2e] border-2 border-[#b4c5ff]/20 -z-10 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"></div>
-              <img alt="Lead Hero Avatar" className="w-64 lg:w-96 aspect-square object-cover border-4 border-[#e9c349] shadow-[15px_15px_0px_0px_rgba(0,35,103,1)] animate-float" src="/pp3.png" />
-              <div className="absolute -bottom-6 -right-6 bg-[#e9c349] text-[#241a00] px-4 py-2 font-headline font-black text-xl tracking-tighter">LVL 99</div>
+              <img alt="Lead Hero Avatar" className="w-64 lg:w-96 aspect-square object-cover border-4 border-[#e9c349] shadow-[15px_15px_0px_0px_rgba(0,35,103,1)] animate-float" src="/kazukid1.jpg" />
             </div>
           </div>
 
@@ -61,8 +60,8 @@ const Hero = () => {
               <a href="#projects" className="bg-[#b4c5ff] text-[#002a78] border-transparent font-headline font-bold py-4 px-10 text-lg uppercase transition-all steps-4 active:scale-95 shadow-[4px_4px_0px_0px_#002a78] hover:shadow-none hover:translate-x-1 hover:translate-y-1 inline-block">
                 ENTER QUEST
               </a>
-              <a href="https://drive.google.com/file/d/1wPqTCtAKnFS78X-ZP0pXXe176WB80BKa/view" target="_blank" rel="noreferrer" className="bg-[#222a3d] text-[#e9c349] border-l-4 border-[#e9c349] font-headline font-bold py-4 px-10 text-lg uppercase transition-all steps-4 active:scale-95 hover:bg-[#31394d] shadow-[4px_4px_0px_0px_rgba(0,0,0,0.3)] inline-block">
-                VIEW STATS
+              <a href="https://drive.google.com/file/d/1J05Dch9UMQ0qBazFC-5tB9gsoHJHo7nO/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-[#222a3d] text-[#e9c349] border-l-4 border-[#e9c349] font-headline font-bold py-4 px-10 text-lg uppercase transition-all steps-4 active:scale-95 hover:bg-[#31394d] shadow-[4px_4px_0px_0px_rgba(0,0,0,0.3)] inline-block">
+                VIEW STATS (CV)
               </a>
             </div>
           </div>
