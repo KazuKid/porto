@@ -15,11 +15,13 @@ function App() {
       <Navbar />
       <SideNav />
       
-      <Hero />
-      <About />
-      <Projects />
-      <Certificates />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Certificates />
+        <Contact />
+      </main>
       
       <Footer />
     </>

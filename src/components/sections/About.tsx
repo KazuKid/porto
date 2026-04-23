@@ -19,34 +19,17 @@ const About = () => {
             <img alt="Hero Sprite" className="w-full h-full object-cover filter contrast-125 grayscale hover:grayscale-0 transition-all duration-500 animate-bob relative z-10" src="/pp3.png" />
           </div>
 
-          {/* Stats Container */}
+          {/* Tech Stack Container (Replaced Stats) */}
           <div className="bg-[#222a3d] p-6 space-y-6 border-l-4 border-[#e9c349]">
-            <div className="space-y-4">
-              <div className="flex justify-between items-end">
-                <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">WEB DEV</label>
-                <span className="text-[#e9c349] font-headline font-bold">80/99</span>
-              </div>
-              <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[80%] transition-all duration-1000"></div>
-              </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex justify-between items-end">
-                <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">PROMPT ENG</label>
-                <span className="text-[#e9c349] font-headline font-bold">85/99</span>
-              </div>
-              <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[85%] transition-all duration-1000"></div>
-              </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex justify-between items-end">
-                <label className="font-headline text-sm font-bold tracking-widest text-[#c5c6d2]">SOFTWARE ENG</label>
-                <span className="text-[#e9c349] font-headline font-bold">70/99</span>
-              </div>
-              <div className="h-2 bg-[#2d3449] w-full">
-                <div className="h-full bg-gradient-to-r from-[#b4c5ff] to-[#e9c349] w-[70%] transition-all duration-1000"></div>
-              </div>
+            <h3 className="font-headline text-[#e9c349] font-bold tracking-widest text-sm mb-4">EQUIPPED TECH STACK</h3>
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">React</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">TypeScript</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">Node.js</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">Vue.js</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">Python</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">Laravel</span>
+              <span className="bg-[#002367] text-[#b4c5ff] px-3 py-1 text-[10px] font-headline font-bold uppercase tracking-wider border border-[#b4c5ff]/30">Git</span>
             </div>
           </div>
         </div>
@@ -87,7 +70,7 @@ const About = () => {
               </div>
               <div className="aspect-square bg-[#131b2e] border border-[#444650] hover:border-[#e9c349] group transition-all cursor-crosshair flex flex-col items-center justify-center gap-2 p-2">
                 <span className="material-symbols-outlined text-3xl text-[#c5c6d2] group-hover:text-[#e9c349] transition-colors">smart_toy</span>
-                <span className="text-[10px] font-headline font-bold text-[#c5c6d2] uppercase text-center">Prompt Eng</span>
+                <span className="text-[10px] font-headline font-bold text-[#c5c6d2] uppercase text-center">Ai Eng</span>
               </div>
               <div className="aspect-square bg-[#131b2e] border border-[#444650] hover:border-[#e9c349] group transition-all cursor-crosshair flex flex-col items-center justify-center gap-2 p-2">
                 <span className="material-symbols-outlined text-3xl text-[#c5c6d2] group-hover:text-[#e9c349] transition-colors">data_object</span>
