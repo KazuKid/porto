@@ -6,6 +6,7 @@ import About from './components/sections/About';
 import Projects from './components/sections/Projects';
 import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Contact />
       </main>
       
+      <Chatbot />
       <Footer />
     </>
   );

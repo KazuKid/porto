@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables (SECURITY: Mencegah API Key terdorong ke GitHub)
+.env
+.env.local
+.env.*.local
+
+# Agent/Skills config
+.github/
