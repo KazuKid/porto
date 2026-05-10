@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Inisialisasi Gemini (PENTING: Hanya untuk project portofolio sederhana / local)
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey || '');
 
@@ -44,39 +43,28 @@ const Chatbot = () => {
         throw new Error("API Key tidak ditemukan di environment variables.");
       }
 
-      // Menyiapkan model AI (menggunakan gemini-2.5-flash)
+      // Menyiapkan model AI (menggunakan gemini-2.5-flash sesuai aturan API gratis terbaru)
+      // v0.24.1 mendukung systemInstruction natively
       const model = genAI.getGenerativeModel({
-        model: "gemini-2.5-flash"
+        model: "gemini-2.5-flash",
+        systemInstruction: "Kamu adalah asisten virtual RPG bergaya pengantar pesan bernama Courier_Bot di website portofolio M. Rivaldy Yusup. Jawab pertanyaan seputar portofolionya (React, Web Dev, dll) dengan bahasa yang ringkas, padat, ramah, dan bernuansa petualangan game RPG. Jangan menjawab hal absurd atau berbahaya di luar konteks portofolio IT.",
       });
 
-      // Karena gemini-pro versi standar tidak selalu mendukung properti systemInstruction,
-      // kita akan memberinya instruksi lewat "pesan pertama" imajiner dalam riwayat obrolan
-      const systemPrompt = "Sistem Instruksi: Kamu adalah asisten virtual RPG bergaya kucing pengantar pesan bernama Courier_Bot di website portofolio M. Rivaldy Yusup. Jawab pertanyaan seputar portofolionya (React, Web Dev, dll) dengan bahasa yang ringkas, padat, ramah, dan bernuansa petualangan game RPG. Jangan menjawab hal absurd di luar portofolio.";
+      // Memformat riwayat obrolan agar sesuai dengan yang diharapkan oleh Gemini SDK
+      // API Gemini mewajibkan history diawali oleh role 'user', maka kita buang pesan greeting awal bot
+      const history = messages
+        .filter((msg, index) => !(index === 0 && msg.role === 'bot'))
+        .map(msg => ({
+          role: msg.role === 'bot' ? 'model' : 'user',
+          parts: [{ text: msg.content }]
+        }));
 
-      const history = [
-        // Pesan pertama sebagai "Suntikan Sistem"
-        {
-          role: "user",
-          parts: [{ text: systemPrompt }]
-        },
-        {
-          role: "model",
-          parts: [{ text: "Baik, saya mengerti. Saya akan berperan sebagai Courier_Bot dan memandu Traveler." }]
-        },
-        // Memasukkan sisa obrolan antara user dan bot di website
-        ...messages
-          .filter((msg, index) => !(index === 0 && msg.role === 'bot'))
-          .map(msg => ({
-            role: msg.role === 'bot' ? 'model' : 'user',
-            parts: [{ text: msg.content }]
-          }))
-      ];
-
+      // Membuka sesi obrolan yang meneruskan konteks agar bot ingat obrolan sebelumnya
       const chatSession = model.startChat({
         history: history,
       });
 
-      // Mengirim pesan ke AI
+      // Mengirim pesan pengguna yang baru
       const result = await chatSession.sendMessage(userMessage);
       const responseText = result.response.text();
 

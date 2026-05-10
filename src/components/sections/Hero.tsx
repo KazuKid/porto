@@ -60,7 +60,7 @@ const Hero = () => {
               <a href="#projects" className="bg-[#b4c5ff] text-[#002a78] border-transparent font-headline font-bold py-3 md:py-4 px-6 md:px-10 text-sm md:text-lg uppercase transition-all steps-4 active:scale-95 shadow-[4px_4px_0px_0px_#002a78] hover:shadow-none hover:translate-x-1 hover:translate-y-1 inline-block">
                 ENTER QUEST
               </a>
-              <a href="https://drive.google.com/file/d/1J05Dch9UMQ0qBazFC-5tB9gsoHJHo7nO/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-[#222a3d] text-[#e9c349] border-l-4 border-[#e9c349] font-headline font-bold py-3 md:py-4 px-6 md:px-10 text-sm md:text-lg uppercase transition-all steps-4 active:scale-95 hover:bg-[#31394d] shadow-[4px_4px_0px_0px_rgba(0,0,0,0.3)] inline-block text-center whitespace-nowrap">
+              <a href="https://drive.google.com/file/d/1m9QB4xdLSGKz-XLHsi9qztlQnJgjEmXk/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-[#222a3d] text-[#e9c349] border-l-4 border-[#e9c349] font-headline font-bold py-3 md:py-4 px-6 md:px-10 text-sm md:text-lg uppercase transition-all steps-4 active:scale-95 hover:bg-[#31394d] shadow-[4px_4px_0px_0px_rgba(0,0,0,0.3)] inline-block text-center whitespace-nowrap">
                 VIEW STATS (CV)
               </a>
             </div>
